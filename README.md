@@ -37,6 +37,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### Conventions
+
+##### Code Formatting
+
+Please setup standar.js extension for VSC and turn on Auto Fix On Save:
+Name: StandardJS - JavaScript Standard Style
+Id: standard.vscode-standard
+Description: Visual Studio Code extension for JavaScript Standard Style with automatic fixing.
+Version: 2.1.0
+Publisher: Standard
+VS Marketplace Link: [Standard.js](https://marketplace.visualstudio.com/items?itemName=standard.vscode-standard)
+Or Ctrl+P and paste `ext install standard.vscode-standard`
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

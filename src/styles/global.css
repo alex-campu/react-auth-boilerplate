@@ -1,0 +1,48 @@
+
+:root{
+  --primary:#00a895;
+  --primary-hover:#01b8a2;
+}
+
+.login-container {
+  min-height: 100vh;
+}
+.email, name {
+  min-width: 300px;
+}
+
+.MuiButton-outlined {
+  background: var(--primary);
+  border-radius: 4px;
+  color: white;
+}
+.MuiButton-outlined:hover{
+  background: var(--primary-hover);
+}
+
+.big-button {
+  display: flex;
+  min-width: 300px;
+}
+
+.logo {
+  font-size: 100px;
+}
+
+.top-margin {
+  margin-top: 18px;
+}
+
+.MuiButton-textPrimary{
+  color: var(--primary);
+}
+.MuiButton-textPrimary:hover {
+color:var(--primary-hover);
+}
+.background-primary{
+  background-color: var(--primary);
+}
+
+.margin-main{
+  margin-top: 56px;
+}
